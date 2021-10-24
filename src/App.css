@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+
+
+
+
+nav{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  
+}
+
+a{
+  padding-right: 15px;
+}
+
+nav img{
+  width: 14px;
+  display: block;
+  background-color: white;
+  border-radius: 25px;
+  padding: 2px;
+  float: right;
+}
+
+.hero{
+  background-image: url("./content/la.jpg");
+  padding-top: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.TextCenter{
+  text-align: center;
+  display: block;
+}
+
+
+.weLoveMusic{
+  text-align: center;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.sidePadding{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.BandMember{
+  width: 33.3333%;
+  text-align: center;
+}
+
+.BandMember img{
+  max-width: 65%;
+}
+
+.BandMemberBox{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+}
+
+.events{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.aboat{
+  padding-top: 30px;
+}
+
+.dates{
+  list-style-type: none;
+  color:gray;
+  margin-bottom: 20px;
+}
+
+.dates li{
+  background: white;
+  border-bottom:1px solid rgb(207, 207, 207);
+  padding: 10px;
+}
+
+.dates li span:nth-of-type(1){
+  display: inline-block;
+  width: 100px;
+}
+
+.dates li span:nth-of-type(2){
+  background-color: indianred;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+
+.space30{
+  padding-bottom: 30px;
+}
+
+.cityBox{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+}
+
+.eventBox{
+  width: 32.333333%;
+  color: black;
+  background: white;
+}
+
+.eventBox img{
+  width: 100%;
+}
+
+.contentBox{
+  background-color: white;
+padding: 10px;
+}
+
+.contentBox h1{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.contentBox h2{
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.contentBox p{
+  margin-bottom: 10px;
+}
+
+.contentBox button{
+  background: black;
+  color: white;
+  padding: 5px;
+  border: 0ch;
+}
+
+.contactBox{
+
+}
+
+.contactBox > h1{
+  text-align: center;
+  margin-top: 60px;
+}
+.contactBox h2{
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(196, 196, 196);
+}
+
+.contactHolder{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.contactHolder > div{
+  width: 49%;
+}
+
+.contactHolder ul{
+  list-style-type: none;
+}
+
+.contactHolder ul li{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: start;
+}
+
+.contactHolder ul li img{
+  height: 15px;
+  display: block;
+}
+
+.contactHolder ul li h1{
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.contactForm input{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid lightgray;
+}
+
+.contactForm button{
+  background: black;
+  color: white;
+  padding: 7px;
+  border: none;
+  float: right;
+}
+
+.fotter{
+  background: lightgray;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.iconHolder{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+}
+
+.iconHolder img{
+  height: 15px;
+}
